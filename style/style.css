@@ -10,12 +10,10 @@ a {
     text-decoration: none;
     color: var(--primary-color);
 }
-h2 {
-    margin: 0;
-}
 
 h1, h2 ,p, article {
     cursor: default;
+    margin: 0;
 }
 /*body*/
 body {
@@ -38,9 +36,6 @@ body {
     justify-content: space-around;
     padding: 0 20px 100px;
     flex-wrap: wrap-reverse;
-}
-.header__text {
-    cursor: default;
 }
 .header__title {
     font-weight: 300;
@@ -76,7 +71,6 @@ body {
     color: var(--white);
     position: relative;
     transition: .2s all ease-in-out
-    
 }
 .header__buy::after {
     content: "1700$";
@@ -119,7 +113,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 .main__popular {
     font-weight: 300;
@@ -142,6 +135,7 @@ body {
     margin: 0 auto;
     display: block;
     background: url(../img/watch-2.png) no-repeat center, #F8F8F8;
+    margin-bottom: 70px;
 }
 .main__name {
     text-align: center;
@@ -184,6 +178,8 @@ body {
     color: #161515;
     position: relative;
     display: inline-block;
+    margin-bottom: 50px;
+
 }
 .product_description__title::before {
     position: absolute;
