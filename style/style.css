@@ -139,7 +139,6 @@ body {
     margin: 0 auto;
     display: block;
     background: url(../img/watch-2.png) no-repeat center, #F8F8F8;
-
 }
 .main__name {
     text-align: center;
@@ -206,7 +205,7 @@ body {
     transition: .2s all ease-in-out;
 }
 .product__description a:hover {
-    border-bottom: 1px solid var(--primary-color);
+    border-bottom: 1px solid #BB8B5D;
 }
 /*main end*/
 
